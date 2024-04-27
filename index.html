@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftyDIYCorner.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light blue background, kept as is for a peaceful look */
+        }
+        .header {
+            background-color: #ff69b4; /* Adjusted to a darker pink for better contrast */
+            color: #000000; /* Changed to black for better contrast */
+            padding: 20px;
+            text-align: center;
+        }
+        .nav {
+            overflow: hidden;
+            background-color: #222; /* Darkened for better contrast */
+        }
+        .nav a {
+            float: left;
+            display: block;
+            color: #ffffff; /* Kept white for contrast */
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            background-color: #555; /* Dark grey for hover, ensuring good contrast */
+            color: white;
+        }
+        .content {
+            padding: 20px;
+            color: #000000; /* Ensuring text is black for better contrast against light backgrounds */
+        }
+        .diy-example {
+            background-color: #add8e6; /* Lighter blue for better contrast with black text */
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .footer {
+            background-color: #222; /* Darkened for better contrast */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            background-color: #f2f2f2; /* Light grey, ensuring form fields are distinguishable */
+            padding: 20px;
+            margin-top: 20px;
+            color: #000000; /* Black text for better readability */
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>CraftyDIYCorner.com</h1>
+</div>
+
+<div class="nav">
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#diy">DIYs</a>
+    <a href="#feedback">Feedback</a>
+</div>
+
+<div class="content">
+    <h2>DIY Examples</h2>
+    <div class="diy-example">
+        <h3>Paper Origami</h3>
+        <p>Learn how to create beautiful origami figures with simple paper folding techniques.</p>
+    </div>
+    <div class="diy-example">
+        <h3>Recycled Bottle Planters</h3>
+        <p>Turn your old plastic bottles into cute planters for your herbs and small plants.</p>
+    </div>
+
+    <h2>Feedback</h2>
+    <form id="feedback">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div class="footer">
+    <p>&copy; 2023 CraftyDIYCorner.com</p>
+</div>
+
+</body>
+</html>
